@@ -4,13 +4,15 @@
 [![rank](https://make.fun/badge/news-image-20261120/rgndy26/news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 [![reward](https://make.fun/badge/news-image-20261120/rgndy26/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
-A program that writes one image summarising Friday 20 November 2026 world news in a five-panel front page.
+A program that writes one image summarising Friday 20 November 2026 world news, as a five-panel front page: a trilateral summit in Shenzhen, a damaged bridge in Kyiv, tankers ablaze in the Strait of Hormuz, the ICJ's Rohingya ruling in The Hague, and a stalled climate summit in Antalya.
 
 ## Run it
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
+
+The program checks that entry.png is a real PNG under 1 MiB and no bigger than 1024 by 1024, then copies it to the output folder unchanged.
 
 ---
 
